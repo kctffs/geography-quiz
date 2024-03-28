@@ -10,10 +10,27 @@
 
 /* General styles */
 body {
-    display: flex;
-    flex-direction: column;
     min-height: 100vh;
     color: #ffffff;
     background: #2b2b2b;
     font-family: 'Signika', sans-serif;
+}
+
+#homepage {
+    width: 100vw;
+    padding: 2rem;
+}
+
+#homepage-title {
+    font-size: 5rem;
+    margin: 1rem;
+    text-align: center;
+}
+
+#homepage-subheading {
+    font-size: 2rem;
+    margin: 1rem;
+    text-align: center;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.6);
 }
