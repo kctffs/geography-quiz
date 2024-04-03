@@ -16,6 +16,7 @@ body {
     font-family: 'Signika', sans-serif;
 }
 
+/* Start screen */
 #homepage {
     width: 100vw;
     padding: 2rem;
@@ -33,4 +34,21 @@ body {
     text-align: center;
     text-transform: uppercase;
     color: rgba(255, 255, 255, 0.6);
+}
+
+#homepage-info {
+    margin: 1rem;
+    text-align: center;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.6);
+    border: solid 2px red;
+    border-radius: 4px;
+    padding: 5px;
+}
+
+#are-you-ready {
+    font-size: 2rem;
+    margin-top: 30rem;
+    text-align: center;
+    text-transform: uppercase;
 }
