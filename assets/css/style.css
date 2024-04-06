@@ -47,7 +47,7 @@ body {
 
 #are-you-ready {
     font-size: 2rem;
-    margin-top: 5rem;
+    margin-top: 1.5rem;
     text-align: center;
     text-transform: uppercase;
 }
@@ -67,4 +67,23 @@ body {
 #start-btn:hover {
     cursor: pointer;
     border: solid 4px red;
+}
+
+/* Game Screen */
+#score-text {
+    font-size: 1.5rem;
+    text-align: right;
+    text-transform: uppercase;
+    padding: 2rem 3rem 0 0;
+}
+
+#score-num {
+    font-size: 5rem;
+    text-align: right;
+    padding-right: 14%;
+}
+
+#question {
+    font-size: 4rem;
+    text-align: center;
 }
