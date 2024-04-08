@@ -1,9 +1,9 @@
-
 const question = document.getElementById('question');
-const choices = document.getElementById('choices-text');
-const scoreNum = document.getElementById('score');
+const choices = document.getElementsByClassName('choices-text');
+const scoreNum = document.getElementById('score-num');
 
 let currentQuestion = {};
+let score = 0;
 
 /* Quiz questions */
 let questions = [
@@ -88,3 +88,8 @@ let questions = [
         asnwer: 4,
     }
 ]
+
+function startQuiz() {
+    score = 0;
+    
+}
